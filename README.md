@@ -1,1 +1,1 @@
- https://Olgasinkevich.github.io/rsschool-cv/cv
+ https://Olgasinkevich.github.io/rsschool-cv/cv.md
