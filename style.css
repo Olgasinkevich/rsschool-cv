@@ -1,0 +1,10 @@
+html, body, .container {height: 100%;} 
+a {font-weight: bold; font-family: serif; color:black;}
+a:hover {font-size: 24px; color: red;} 
+body { margin:0; padding: 10px;}
+/*header main {align-content: center; width: 50%; }*/
+img {float: left; height: 100%;}
+header {height: 400px; text-align: center;}
+.container {max-width:500px; margin: 0 auto; background: linear-gradient(white 65%, red 70%, white 75%);}
+main {padding-top: 10px;text-indent: 20px;}
+main>p {text-align: justify;}
