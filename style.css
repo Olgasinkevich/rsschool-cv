@@ -1,0 +1,67 @@
+html {
+    padding: 0;
+    width: 100%;
+    background-color: rgba(248, 248, 248, 0.7) ;
+    font-size: 18px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+header {    
+    margin: 0 auto;
+    width: 300px;
+}
+
+a {
+ text-decoration-line: none;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid rgba(126, 111, 111, 0.7);
+}
+
+main p {
+    text-indent: 30px;
+}
+
+hr {
+    margin: 20px 10px;
+}
+
+footer {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 150px;
+}
