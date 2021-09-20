@@ -15,10 +15,27 @@
 <body>
 <div class="container">
     <header class="center">
-        <h1>Olga Sinkevich</h1>
+
+        <div class="nav">
+            <div class="hamburger-wrapper">
+                <span class="hamburger">
+                    <span class="hamburger-line"></span>
+                </span>
+                <h1>Olga Sinkevich</h1>
+            </div>
+            <div class="wrapper">
+                <ul class="menu-box">
+                    <li><a href="#contact">CONTACTS</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#examples">EXAMPLES</a></li>
+                </ul>
+
+            </div>
+        </div>
 
         <img src="./images/photo_1.jpg" alt="photo">
-        <h3>Contacts:</h3>
+        <h3 id="contact">Contacts:</h3>
         <ul class="left">
             <li><a href="https://www.linkedin.com/in/olga-sinkevich-96a7a0215/" target="_blank">Linkedln</a></li>
             <li><a
@@ -44,8 +61,8 @@
             </p>
         </article>
 
-        <section>
-            <h3>My hard scills:</h3>
+        <section id="skills">
+            <h3>My hard skills:</h3>
             <ul>
                 <li>Languages: JavaScript</li>
                 <li>Web development: HTML5, CSS3</li>
@@ -56,7 +73,7 @@
             </ul>
         </section>
 
-        <section>
+        <section id="courses">
             <h3>My courses:</h3>
             <ul>
                 <li>'Front-End developer' (2020)
@@ -87,7 +104,7 @@
         </section>
         <p>My<strong> English level</strong> is <strong>А1</strong>. Now I am studying in English courses.</p>
     </main>
-    <details>
+    <details id="examples">
         <summary>Click to show code example</summary>
         <pre>
         <code>
@@ -152,5 +169,6 @@
         </p>
     </footer>
 </div>
+<script src="./main.js"></script>
 </body>
 </html>
