@@ -14,6 +14,12 @@ html {
 
 }
 
+.image-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 20px;
+}
 .left {
     text-align: left;
 }
@@ -28,7 +34,7 @@ header {
 }
 
 a {
- text-decoration-line: none;
+    text-decoration-line: none;
 }
 
 ul {
@@ -37,6 +43,7 @@ ul {
 
 ul li {
     list-style: none;
+    width: 100%;
 }
 
 table {
@@ -74,7 +81,9 @@ footer {
     }
 }
 .preview {
-    width: 100%;
+    padding: 10px;
+    width: 30rem;
+    height: 15rem;
     margin-bottom: 40px;
 }
 
